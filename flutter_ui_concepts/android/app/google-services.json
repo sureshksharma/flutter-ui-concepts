@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "828503306677",
+    "project_id": "madan30days",
+    "storage_bucket": "madan30days.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828503306677:android:8485a2f6c574f56d08a9fc",
+        "android_client_info": {
+          "package_name": "com.example.flutter_ui_concepts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828503306677-4iddj20hm33bmgenah6ud0k0ohgf1r73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEDiuyCHCBC-drejNWFT3mkP2SJq_g0QI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828503306677-4iddj20hm33bmgenah6ud0k0ohgf1r73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
