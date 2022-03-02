@@ -36,6 +36,10 @@ dependencies:
   cupertino_icons: ^1.0.2
   animated_text_kit: ^4.2.1
   cached_network_image:
+  image_picker:
+  geolocator:
+  geocoding:
+  fluttertoast:
 
 dev_dependencies:
   flutter_test:

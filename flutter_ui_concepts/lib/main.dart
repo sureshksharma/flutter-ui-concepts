@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_concepts/image_widget.dart';
+import 'package:flutter_ui_concepts/widgets/geolocation.dart';
+import 'package:flutter_ui_concepts/widgets/image_picker.dart';
+import 'package:flutter_ui_concepts/widgets/image_widget.dart';
 import 'package:flutter_ui_concepts/widgets/alert_dialog.dart';
 import 'package:flutter_ui_concepts/widgets/animated_text.dart';
 import 'package:flutter_ui_concepts/widgets/bottom_navigation.dart';
@@ -15,6 +17,7 @@ import 'package:flutter_ui_concepts/widgets/snackbar_widget.dart';
 import 'package:flutter_ui_concepts/widgets/stack.dart';
 import 'package:flutter_ui_concepts/widgets/tabbar.dart';
 import 'package:flutter_ui_concepts/widgets/text_elevated_button.dart';
+import 'package:flutter_ui_concepts/widgets/ui_sample_1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +36,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: Colors.deepPurple,
       ),
-      home: const TabBarWidget(),
+      home: const UiSample1(),
     );
   }
 }
