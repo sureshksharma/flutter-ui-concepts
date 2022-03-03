@@ -147,10 +147,10 @@ class InstaProfileUi extends StatelessWidget {
                 },
               ),
             ),
-            Container(
-              height: 100,
-              color: Colors.green,
-            ),
+            // Container(
+            //   height: 100,
+            //   color: Colors.green,
+            // ),
             Expanded(
               child: Container(
                 child: GridView.builder(
