@@ -11,6 +11,7 @@ import 'package:flutter_ui_concepts/widgets/dismissable_package.dart';
 import 'package:flutter_ui_concepts/widgets/drawer_widget.dart';
 import 'package:flutter_ui_concepts/widgets/drop_down_list.dart';
 import 'package:flutter_ui_concepts/widgets/form_widget.dart';
+import 'package:flutter_ui_concepts/widgets/insta_profile_ui.dart';
 import 'package:flutter_ui_concepts/widgets/list_grid_view.dart';
 import 'package:flutter_ui_concepts/widgets/rows_columns.dart';
 import 'package:flutter_ui_concepts/widgets/snackbar_widget.dart';
@@ -36,7 +37,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: Colors.deepPurple,
       ),
-      home: const UiSample1(),
+      home: const InstaProfileUi(),
     );
   }
 }
