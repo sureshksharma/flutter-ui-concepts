@@ -1,4 +1,8 @@
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_concepts/widgets/firebase_auth.dart';
+import 'package:flutter_ui_concepts/widgets/firestore_cloud.dart';
 import 'package:flutter_ui_concepts/widgets/geolocation.dart';
 import 'package:flutter_ui_concepts/widgets/image_picker.dart';
 import 'package:flutter_ui_concepts/widgets/image_widget.dart';
@@ -20,7 +24,9 @@ import 'package:flutter_ui_concepts/widgets/tabbar.dart';
 import 'package:flutter_ui_concepts/widgets/text_elevated_button.dart';
 import 'package:flutter_ui_concepts/widgets/ui_sample_1.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -37,7 +43,16 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: Colors.deepPurple,
       ),
-      home: const InstaProfileUi(),
+      home: StreamBuilder(
+        stream: FirebaseAuth.instance.authStateChanges(),
+        builder: (context, snapshot) {
+          if (snapshot.hasData) {
+            return DatabaseOptions();
+          } else {
+            return FirebaseAuthentication();
+          }
+        },
+      ),
     );
   }
 }

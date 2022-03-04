@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>828503306677-euvhjnja6dfhsv85nogqtvd901730aor.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.828503306677-euvhjnja6dfhsv85nogqtvd901730aor</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDJHQwHTa-i2i-yyF7l5tpyEc1v1ZFKPTw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>828503306677</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jayx.flutter-30-concepts</string>
+	<key>PROJECT_ID</key>
+	<string>madan30days</string>
+	<key>STORAGE_BUCKET</key>
+	<string>madan30days.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:828503306677:ios:c1ea775dce7fa11408a9fc</string>
+</dict>
+</plist>
